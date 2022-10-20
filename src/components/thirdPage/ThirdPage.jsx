@@ -14,6 +14,7 @@ export default function ThirdPage() {
       structures, to generate Lorem Ipsum which looks reasonable. The generated
       Lorem Ipsum is therefore always free from repetition, injected humour, or
       non-characteristic words
+    <div onLoad={window.runAds()} id="mid_1" className="adyb show-ad-label" data-ad-mapping="mid_1" data-ad-slot="homepage/mid_1" data-ad-targeting="middle"></div>
     </div>
   );
 }
