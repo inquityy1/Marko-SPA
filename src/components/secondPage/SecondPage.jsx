@@ -14,6 +14,7 @@ export default function SecondPage() {
       book is a treatise on the theory of ethics, very popular during the
       Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
       amet..", comes from a line in section 1.10.32.
+    <div onLoad={window.runAds()} id="right_2" className="adyb show-ad-label" data-ad-mapping="right_2" data-ad-slot="homepage/right_2" data-ad-targeting="bottom"></div>
     </div>
   );
 }
