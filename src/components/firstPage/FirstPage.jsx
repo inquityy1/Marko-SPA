@@ -12,6 +12,7 @@ export default function FirstPage() {
       sheets containing Lorem Ipsum passages, and more recently with desktop
       publishing software like Aldus PageMaker including versions of Lorem
       Ipsum.
+    <div onLoad={window.runAds()} type="bottomScroll" id="home1" role="complementary" aria-hidden="true" data-ad-mapping="mid_1" data-ad-slot="homepage/mid_1" data-ad-targeting="middle" className="adyb styles__StyledKarma-sc-1yuc4oc-0 ffYzDt" ></div>
     </div>
   );
 }
