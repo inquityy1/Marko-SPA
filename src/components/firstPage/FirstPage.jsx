@@ -6,7 +6,7 @@ export default function FirstPage() {
   const id = uuidv4();
   const [loading, setLoading] = useState(true);
 
-  useScript("https://cdn.yourbow.com/cozi/gptyb.js");
+  useScript("https://kcube.digital/marko/ADS/TM/gpt_cozi.js");
 
   console.log(loading);
 
