@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { v4 as uuidv4 } from "uuid";
-import useScript from "../useScript/useScript";
+// import { v4 as uuidv4 } from "uuid";
+// import useScript from "../useScript/useScript";
 
 export default function FourthPage() {
-  const id = uuidv4();
+  // const id = uuidv4();
 
   const [loading, setLoading] = useState(true);
 
-  useScript("https://cdn.yourbow.com/cozi/gptyb.js");
+  // useScript("https://cdn.yourbow.com/cozi/gptyb.js");
 
   setTimeout(() => {
     setLoading(false);
@@ -30,15 +30,11 @@ export default function FourthPage() {
             and the like).
           </div>
           <div
-            onLoad={window.runAds()}
-            type="bottomScroll"
-            id={id}
-            role="complementary"
-            aria-hidden="true"
-            data-ad-mapping="mid_1"
-            data-ad-slot="receipes/mid_1"
-            data-ad-targeting="middle"
-            className="adyb styles__StyledKarma-sc-1yuc4oc-0 ffYzDt"
+            id="adRightRailTop"
+            className="adyb show-ad-label"
+            data-ad-mapping="rightrailtop"
+            data-ad-slot="test_marko/HP"
+            data-ad-targetingpos=""
           ></div>
         </div>
       ) : (

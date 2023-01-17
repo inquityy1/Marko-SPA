@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { v4 as uuidv4 } from "uuid";
-import useScript from "../useScript/useScript";
+// import { v4 as uuidv4 } from "uuid";
+// import useScript from "../useScript/useScript";
 
 export default function ThirdPage() {
-  const id = uuidv4();
+  // const id = uuidv4();
   const [loading, setLoading] = useState(true);
 
-  useScript("https://cdn.yourbow.com/cozi/gptyb.js");
+  // useScript("https://cdn.yourbow.com/cozi/gptyb.js");
 
   setTimeout(() => {
     setLoading(false);
@@ -28,12 +28,11 @@ export default function ThirdPage() {
           looks reasonable. The generated Lorem Ipsum is therefore always free
           from repetition, injected humour, or non-characteristic words
           <div
-            onLoad={window.runAds()}
-            id={id}
+            id="adRightRailTop"
             className="adyb show-ad-label"
-            data-ad-mapping="mid_1"
-            data-ad-slot="calendar/mid_1"
-            data-ad-targeting="middle"
+            data-ad-mapping="rightrailtop"
+            data-ad-slot="test_marko/HP"
+            data-ad-targetingpos=""
           ></div>
         </div>
       ) : (
