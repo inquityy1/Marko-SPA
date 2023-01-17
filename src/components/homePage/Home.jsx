@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-// import { v4 as uuidv4 } from "uuid";
-// import useScript from "../useScript/useScript";
+import { v4 as uuidv4 } from "uuid";
+import useScript from "../useScript/useScript";
 
 export default function FirstPage() {
-  // const id = uuidv4();
+  const id = uuidv4();
   const [loading, setLoading] = useState(true);
 
-  // useScript("https://cdn.yourbow.com/cozi/gptyb.js");
+  useScript("https://cdn.yourbow.com/cozi/gptyb.js");
 
-  // console.log(loading);
+  console.log(loading);
 
   setTimeout(() => {
     setLoading(false);
@@ -27,8 +27,8 @@ export default function FirstPage() {
           the release of Letraset sheets containing Lorem Ipsum passages, and
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.d
-          {/* <div
-            // onLoad={window.runAds()}
+          <div
+            onLoad={window.runAds()}
             type="bottomScroll"
             id={id}
             role="complementary"
@@ -37,21 +37,6 @@ export default function FirstPage() {
             data-ad-slot="homepage/mid_1"
             data-ad-targeting="middle"
             className="adyb styles__StyledKarma-sc-1yuc4oc-0 ffYzDt"
-          ></div> */}
-          {/* <div
-            id={id}
-            className="adyb show-ad-label"
-            data-ad-mapping="leaderboard"
-            data-ad-slot="home"
-            data-ad-targetingpos="1"
-            style={{ width: "728px", height: "90px" }}
-          ></div> */}
-          <div
-            id="adRightRailTop"
-            className="adyb show-ad-label"
-            data-ad-mapping="rightrailtop"
-            data-ad-slot="test_marko/HP"
-            data-ad-targetingpos=""
           ></div>
         </div>
       ) : (
